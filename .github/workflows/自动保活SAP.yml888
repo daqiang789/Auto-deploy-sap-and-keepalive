@@ -1,9 +1,9 @@
 name: 自动保活 SAP
 
-on:
-  schedule:
-    - cron: '45 23 * * *'      
-  workflow_dispatch:          # 允许手动触发
+# on:
+#   schedule:
+#     # - cron: '45 23 * * *'      
+#   workflow_dispatch:          # 允许手动触发
 
 jobs:
   restart-sg-apps:
